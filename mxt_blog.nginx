@@ -1,0 +1,13 @@
+server {
+    charset utf-8;
+    listen 80;
+    server_name maxiaoteng.xyz, localhost;
+
+    location /static {
+        alias /var/www/mxt_blogs_project/static; 
+    }
+
+    location /blog {
+        proxy_pass localhost:2018;
+    }
+}
