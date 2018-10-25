@@ -124,4 +124,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # 配置一下静态文件路径
-STATIC_ROOT = os.paht.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
