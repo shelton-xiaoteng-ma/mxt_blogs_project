@@ -8,6 +8,6 @@ server {
     }
 
     location /blog {
-        proxy_pass localhost:2018;
+        proxy_pass http://localhost:2018;
     }
 }
